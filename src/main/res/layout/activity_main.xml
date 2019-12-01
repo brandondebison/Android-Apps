@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--This Id is connected through the project, should you change it you will break the code.-->
+    <ListView
+
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+
+
+    <at.markushi.ui.CircleButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:cb_color="@color/colorPrimary"
+        app:cb_pressedRingWidth="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="33dp"
+        android:src="@drawable/ic_action_add"
+
+        android:onClick="openEditorForNewNote"
+
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+
+<!--        android:layout_marginStart="282dp"-->
+<!--        android:layout_marginTop="650dp"-->
+<!--        android:layout_marginEnd="41dp"-->
+<!--        android:layout_marginBottom="33dp"-->
+<!--        android:text="New Note"-->
+
+<!--        android:onClick="openEditorForNewNote"/>-->
+
+</RelativeLayout>
