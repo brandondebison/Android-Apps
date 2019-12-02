@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/wounds_canada_icon"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_best_practices"
+        android:icon="@drawable/star"
+        android:title="@string/title_best_practices" />
+
+    <item
+        android:id="@+id/navigation_publications"
+        android:icon="@drawable/book"
+        android:title="@string/title_publications" />
+
+    <item
+        android:id="@+id/navigation_tools"
+        android:icon="@drawable/toolbox"
+        android:title="@string/title_tools" />
+
+    <item
+        android:id="@+id/navigation_events"
+        android:icon="@drawable/calendar"
+        android:title="@string/title_events" />
+
+</menu>
